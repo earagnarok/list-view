@@ -5389,6 +5389,18 @@
       ]
     },
     {
+      "name": "Accatran Mortar",
+      "modes": [
+        {
+          "firepower": "1BP",
+          "range": 30,
+          "specialRules": [
+            "Ind"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Twin Heavy Phantom Lance",
       "modes": [
         {
@@ -8509,7 +8521,7 @@
       "modes": [
         {
           "firepower": "AP5+/AT3+",
-          "range": 45,
+          "range": 30,
           "specialRules": [
             "Lance"
           ]
@@ -9676,7 +9688,7 @@
       "modes": [
         {
           "firepower": "3BP",
-          "range": 45,
+          "range": 30,
           "specialRules": [
             "IC",
             "D"

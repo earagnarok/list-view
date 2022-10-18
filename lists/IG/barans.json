@@ -3,7 +3,7 @@
   "army": "Baran Siegemasters",
   "version": "0.1.Beta",
   "release": "2022-05-27",
-  "strategy": "Baran Siegemaster armies have a Strategy Rating of 1.",
+  "strategy": "Baran Siegemaster armies have a Strategy Rating of 2.",
   "Initiative": "All formations have a Initiative Rating of 2+.",
   "specialRules": [
     "Baran Regimental HQ",
@@ -26,6 +26,7 @@
         "Sappers",
         "Death Riders",
         "Snipers",
+        "Ogryns",
         "Thudd Gun",
         "Rapier",
         "Mole Launcher Squad",
@@ -36,6 +37,7 @@
         "Hellhound",
         "Bane Wolf",
         "Devil Dog",
+        "Deathstrike",
         "Howitzer",
         "Ragnarok Heavy Tank",
         "Siegfried Light Tank",
@@ -54,7 +56,9 @@
       "from": "ImperialNavy.json",
       "units": [
         "Thunderbolt Fighter",
-        "Marauder Bomber"
+        "Marauder Bomber",
+        "Lunar Class Cruiser",
+        "Emperor Class Battleship"
       ],
       "unitRules": [
       ]
@@ -70,22 +74,22 @@
           "units": "One Baran Siegemaster with a Commissar, nine Siege Infantry",
           "extraUnits": [
               "40cm of Razor Wire and 4cm of Trenches for each unit of INF in the formation: 50 points. Replace 24cm of Trenches with two Bunkers: 25 points",
-              "Five Siege Infantry, or two Snipers, or two Sappers: 50 points",
-              "Four Rapiers, or three Mole Launcher Squads, or three Thudd Guns, or two Medusa Guns with two Gun Emplacements: 75 points",
-              "One Defense Laser, or three Ragnarok Heavy Tanks, or two Malcadors, or two Malcador Defenders: 150 points"
+              "Five Siege Infantry, or two Snipers, or two Sappers, or two Ogryns: 50 points",
+              "Four Rapiers, or three Mole Launcher Squads, or three Thudd Guns, or two Medusa Guns with two Gun Emplacements, or one Deathstrike: 75 points",
+              "One Defense Laser, or two Malcadors, or two Malcador Defenders: 150 points"
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Siege Infantry Company",
           "units": "One Baran Commander with a Commissar, nine Siege Infantry",
           "extraUnits": [
               "40cm of Razor Wire and 4cm of Trenches for each unit of INF in the formation: 50 points. Replace 24cm of Trenches with two Bunkers: 25 points",
-              "Five Siege Infantry, or two Snipers, or two Sappers: 50 points",
-              "Four Rapiers, or three Mole Launcher Squads, or three Thudd Guns, or two Medusa Guns with two Gun Emplacements: 75 points",
-              "One Defense Laser, or three Ragnarok Heavy Tanks, or two Malcadors, or two Malcador Defenders: 150 points"
+              "Five Siege Infantry, or two Snipers, or two Sappers, or two Ogryns: 50 points",
+              "Four Rapiers, or three Mole Launcher Squads, or three Thudd Guns, or two Medusa Guns with two Gun Emplacements, or one Deathstrike: 75 points",
+              "One Defense Laser, or two Malcadors, or two Malcador Defenders: 150 points"
           ],
-          "points": 200
+          "points": 175
       }
       ]
     },
@@ -97,9 +101,9 @@
             "name": "Heavy Tank Company",
             "units": "One Commissar, six Ragnarok Heavy Tanks",
             "extraUnits": [
-              "Add three Ragnarok Heavy Tanks, or two Malcadors, or two Malcador Defenders: 150 points"
+              "Add three Ragnarok Heavy Tanks: 125 points"
             ],
-            "points": 375
+            "points": 350
         },
         {
           "name": "Macharius Company",
@@ -112,8 +116,6 @@
         {
           "name": "Sapper Company",
           "units": "One Commissar, eight Sappers, one Hades Breaching Drill",
-          "extraUnits": [
-          ],
           "points": 225
         },
         {
@@ -122,30 +124,31 @@
           "extraUnits": [
               "Replace four Medusa Guns and four Gun Emplacements with three Bombards and three Gun Emplacements: 25 points"
           ],
-          "points": 225
+          "points": 200
         },
         {
           "name": "Howitzer Emplacement",
           "units": "Three Howitzers, three Gun Emplacements",
           "extraUnits": [
-              "Add three Howitzers and three Gun Emplacements: 125 points",
+              "Add three Howitzers and three Gun Emplacements (100 points), or add a Commissar, six Howitzers, and six Gun Emplacements (200 points)",
               "Add one Heavy AA Gun and one Gun Emplacement: 50 points"
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Flak Emplacement",
           "units": "Three Heavy AA Guns, three Gun Emplacements",
           "extraUnits": [
           ],
-          "points": 175
+          "points": 150
         },
         {
           "name": "Light Artillery Emplacement",
-          "units": "Five Rapiers, five Thudd Guns, or five Mole Launchers, with 20cm Trenches",
+          "units": "Four Rapiers, four Thudd Guns, or four Mole Launchers, with 16cm Trenches",
           "extraUnits": [
+              "Add four units of the same type, 16cm Trenches, and a Commissar: 125 points"
           ],
-          "points": 200
+          "points": 150
         },
         {
           "name": "Griffon Battery",
@@ -156,9 +159,10 @@
           "points": 175
         },
         {
-          "name": "Death Rider Platoon",
+          "name": "Death Riders",
           "units": "Six Death Riders",
           "extraUnits": [
+              "Add six Death Riders and a Commissar: 100 points",
               "Add up to three Hellhounds, Bane Wolves, or Devil Dogs: 25 points each"
           ],
           "points": 150
@@ -169,12 +173,19 @@
           "extraUnits": [
               "Add up to three Hellhounds, Bane Wolves, or Devil Dogs: 25 points each"
           ],
-          "points": 150
-        }
+          "points": 125
+      },
+      {
+        "name": "Defense Laser",
+        "units": "One Defense Laser",
+        "extraUnits": [
+        ],
+        "points": 200
+      }
       ]
     },
     {
-      "name": "Imperial Navy Aircraft",
+      "name": "Imperial Navy",
       "description": "Up to a third of the points available may be spent on Imperial Navy formations",
       "formations": [
         {
@@ -186,7 +197,15 @@
           "name": "Marauder Squadron",
           "units": "Two Marauder Bombers",
           "points": 250
-        }
+      },
+      {
+        "name": "0–1 Orbital Support",
+        "units": "One Lunar Class Cruiser",
+        "points": 125,
+        "extraUnits": [
+          "Replace with an Emperor Class Battleship: 50 points"
+        ]
+      }
       ]
     }
   ]

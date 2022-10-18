@@ -9,7 +9,7 @@
     {
       "title": "Machine Spirit",
       "description": [
-        "A formation that exclusively consists of units with Machine Spirit may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives, and always counts as being within 30cm of an enemy formation when attempting to Rally."
+        "A formation that exclusively consists of units with <i>Machine Spirit</i> may only perform the Hold, Engage, Marshal, Sustained Fire and Overwatch actions. In addition, such formations may only contest objectives, and always counts as being within 30cm of an enemy formation when attempting to Rally."
       ]
     },
     {
@@ -142,7 +142,7 @@
     {
       "title": "Grav-Chutes",
       "description": [
-        "Units with the 'Grav-Chutes' special rule may disembark up to 10cm from Skimmer transport vehicles instead of the normal 5cm."
+        "Units with the <i>Grav-Chutes</i> special rule may disembark within 10cm of a <i>Skimmer</i> transport vehicles instead of the normal 5cm."
       ]
     },
     {
@@ -175,15 +175,23 @@
       ]
     },
     {
-      "title": "Vertical Envelopment",
+      "title": "Air Superiority",
       "description": [
-        "Up to three formations that garrison may start on Overwatch instead of the usual two. In addition, one aircraft formation may start the game on CAP. The aircraft formation will follow all the rules for CAP, but is setup during the pre-game garrisoning phase."
+        "Elysian Drop Troops may instead of starting with garrisons on overwatch place aircrafts on Combat Air Patrol. Up to two formations may start on overwatch or CAP. Aircraft formation placed on CAP in this way will follow all the normal rules for CAP, but are setup during the pre-game garrisoning phase."
+      ]
+    },
+    {
+      "title": "Deep Strike",
+      "description": [
+        "An Elysian Drop Troops army that includes a Spacecraft may deploy one formation transported in Valkyries/Vendettas or one Sky Talon Squadron (together with any formation they transport) in the Spacecraft. All transport vehicles in a formation deployed in a Spacecraft gains the <i>Planetfall</i> special rule. Roll for scatter individually for each transport vehicle."
       ]
     },
     {
       "title": "Sky Talons",
       "description": [
-        "The Elysian Drop Troops garrisons only need to have one unit within 30cm from an objective instead of the usual 15cm."
+        "The Sky Talon Squadron are an exception to the rule that transport vehicles may only carry units from their own formation. The Sky Talon Squadron can carry units from another formation, as long as the entire formation can transported (the Sky Talon Squadron has enough transport capacity). The Sky Talon Squadron can also start the game transporting another formation, given that all units form the transported formation can fit in the Sky Talons.",
+        "If the Sky Talon Squadron pick up a formation that has already activated this turn, their action ends immediately. They may not shoot, make an additional move as part of a double action etc. Once the action has ended where the transported formation disembarked from the Sky Talon Squadron they again count as two independent formations.",
+        "Other than the exceptions above, the Sky Talons and the units they carry follow all the normal rules for Transport Vehicles (NetEA Epic Game Rules 1.7.5)."
       ]
     },
     {
@@ -203,9 +211,9 @@
     {
       "title": "Tunnelers",
       "description": [
-        "Tunnellers may be set up touching their own side's table edge before the battle starts at the same time that spacecraft are set up (see 4.3.1). Any units transported in tunnellers should be placed to one side at this time too. Secretly write down the location where the tunneller will surface at the same time and in the same manner that you record the coordinates of a drop zone (see 4.3.1). You must also secretly record the turn the tunneller will surface. If it is going to surface in your half of the table it may arrive from the second turn onwards. If it is going to surface in the opposing half of the table, it may arrive from turn three onwards.",
+        "Tunnellers may be set up touching their own side's table edge before the battle starts at the same time that spacecraft are set up (see 4.3.1). Any units transported in tunnellers should be placed to one side at this time too. Secretly write down the location where the tunneller will surface at the same time and in the same manner that you record the coordinates of a drop zone (see 4.3.1). You must also secretly record the turn the tunneller will surface. If it is going to surface within 30cm of a table edge within the deployment zone, it may arrive from the first turn. If it is going to surface within 65cm of a table edge within the deployment zone, it may appear on turn two. It can appear on any part of the battlefield from the third turn.",
         "Set up the tunneller units at the start of the stated turn, before determining who wins the strategy roll, at the location you wrote down. Surfacing does not count as movement for the purposes of triggering enemy overwatch fire. If a tunneller would have surfaced on terrain that is impassable for it, under a friendly unit, or in an enemy zone of control, then it is assumed that on-board sensor equipment would divert it towards another entry point. The unit should be moved to the nearest area where it can surface.",
-        "Formations of multiple tunnellers need only record one location where they will surface. Place the first tunneller unit at this location. All other tunneller units must be placed within 5cm of another tunneller unit that has already been placed and fully within a 15cm radius of the original surfacing coordinates. Tunnelers do not have to roll for dangerous or difficult terrain when they appear. After all tunnellers have been placed any units being transported are allowed to disembark immediately, and may disembark on the enemy half of the table (if they appear in turn 2).",
+        "Formations of multiple tunnellers need only record one location where they will surface. Place the first tunneller unit at this location. All other tunneller units must be placed within 5cm of another tunneller unit that has already been placed and fully within a 15cm radius of the original surfacing coordinates, which can be beyond where tunnellers could appear that turn. Tunnelers do not have to roll for dangerous or difficult terrain when they appear. After all tunnellers have been placed any units being transported are allowed to disembark immediately, and may disembark on the enemy half of the table (if they appear in turn 2).",
         "Disembarking triggers overwatch fire as normal. Tunnellers, and any units being transported in them, may take an action on the turn they appear."
       ]
     },
@@ -721,12 +729,11 @@
     {
       "title": "Daemonic Incursion Summoning Rules",
       "description": [
-        "Formations in a Daemonic Incursion army may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so. Cultist Coven formations are aligned with Chaos Undivided, but may not summon lesser daemons aligned with powers that are hated by any of the Exalted Greater Daemons in the army. (Brackets indicating the Summoning Points cost):",
+        "Formations in a Daemonic Incursion army may summon Lesser Daemons from the power they are aligned with. They do not need an upgrade to do so. Cultist Coven formations are aligned with all powers present in the army at the start of the battle. (Brackets indicating the Summoning Points cost):",
         "Slaanesh: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1), Seekers of Slaanesh (2)",
         "Nurgle: Plaguebearers of Nurgle (1), Beasts of Nurgle (1), Plague Drones of Nurgle (2)",
         "Khorne: Bloodletters of Khorne (1), Fleshhounds of Khorne (1), Bloodcrushers of Khorne (2)",
-        "Tzeentch: Horrors of Tzeentch (1), Flamers of Tzeentch (1), Screamers  of Tzeentch (1)",
-        "Chaos Undivided: Daemonettes of Slaanesh (1), Plaguebearers of Nurgle (1), Bloodletters of Khorne (1), Horrors of Tzeentch (1), Daemonic Beasts of Chaos Undivided (1).",
+        "Tzeentch: Horrors of Tzeentch (1), Screamers of Tzeentch (1), Flamers of Tzeentch (2)",
         "Note that while the Summoning Points cost of summoning each type of daemonic unit varies, the Daemon Pool cost is always one.",
         "When calculating Victory Points of the purposes of Tie Break, only the part of the Lesser Daemon Pool that was bought by itself is considered when checking if there is less than half remaining. Lesser Daemon Pool points that was bought as part of a formation are counted towards that formation's starting units."
       ]
@@ -952,9 +959,10 @@
       "description": [
         "Formations with at least one model with the Warp Rift special rule must start the game in the reserves, and may only enter the battlefield through a Warp Rift or a Chaos Gate.",
         "Warp Rifts are plotted exactly as Self Planetfall. Both the turn in which the formation arrives and the landing coordinates must be recorded. The turn each formation arrives does not have to be announced.",
+        "The plotted coordinates of the Warp Rift must be located within 45cm from the friendly Blitz objective if the formation arrives in turn one, within 75cm if it arrives turn two, and anywhere on the battlefield on turn three.",
         "On the designated turn the Warp Rift formation is activated in the normal activation sequence, as with Self Planetfall.",
-        "First the action for the formation must be decided. After this roll to summon daemons, and then roll to activate. If the formation fails to activate it must take a Hold action and enter through a Chaos Gate if any is available. If there are no Chaos Gates available, its arrival is delayed to the following turn, and it must remain in the reserves.",
-        "If the activation is successful, place a Warp Rift token at the plotted coordinates, and scatter it 2D6cm. If the Warp Rift tokes scatters off the battlefield, the formation is destroyed.",
+        "First the action for the formation must be decided. After this roll to summon daemons, and then roll to activate. If the formation fails to activate it must take a Hold action. It may then either enter the battlefield through any available Chaos Gate, or its arrival is delayed to the following turn, and it must remain in the reserves.",
+        "If the activation is successful, place a Warp Rift token at the plotted coordinates. It does not scatter.",
         "If a Warp Rift would open on terrain that is impassable for units in the formation that will enter through it, under a friendly unit, or in an enemy zone of control, then it is assumed that will divert towards another entry point. The location for the Warp Rift should be moved to the nearest point where it can open.",
         "Finally, the activated formation carries out the order determined at the start of its action, and must move the formation out of the Warp Rift. Measure all distances from the centre point of the token.",
         "All units from the activating formation must move out of the Warp Rift. Any units that are unable to exit the Warp Rift are destroyed. The Warp Rift token is then removed from the battlefield."
@@ -964,6 +972,7 @@
       "title": "Chaos Gate",
       "description": [
         "Daemonic Incursion formations that are located in the Reserves may use Chaos Gates to enter the battlefield. Any number of formations can use a Chaos Gate per turn if it is part of an objective, but only one formation per turn can use a Chaos Gate mounted on a War Engine.",
+        "First the action for the formation must be decided. After this roll to summon daemons, and then roll to activate. If the formation fails to activate it must take a Hold action. It may then either enter the battlefield through any available Chaos Gate, or choose to remain in the reserves.",
         "Chaos Gates that are part of objectives cannot be destroyed, while Chaos Gates mounted on War Engines are destroyed if that War Engine is destroyed.",
         "Any formation that enters the battlefield through a Chaos Gate mounted on a War Engine that is broken recieves a Blast Marker. Measure all movement from the Chaos Gate from the centre of the token, or the edge of the War Engine.",
         "If a Chaos Gate is in an enemy zone of control, any formation that enters through it must Engage that formation(s). In addition, if it is also directly under an enemy formation, any formation that enters must maximize base contact as much as possible."

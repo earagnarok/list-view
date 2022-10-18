@@ -1,17 +1,15 @@
 {
   "fraction": "Astra Militarum",
   "army": "Elysian Drop Troops",
-  "version": "0.5.0",
-  "release": "2022-04-01",
+  "version": "0.9.0",
+  "release": "2022-08-03",
   "strategy": "Elysian Drop Troops armies have a Strategy Rating of 3.",
   "Initiative": "All formations have a Initiative of 2+.",
   "specialRules": [
     "Courage, Discipline and Loyalty",
-    "Vertical Envelopment",
+    "Air Superiority",
+    "Deep Strike",
     "Sky Talons"
-  ],
-  "usage": [
-    "The following army list allows you to field an army based on the Elysian Drop Troop Regiment"
   ],
   "units": [
     {
@@ -21,21 +19,22 @@
         "Elysian Commander",
         "Commissar",
         "Elysian Drop Troops",
+        "Elysian Fire Support Squad",
+        "Elysian Mortar Squad",
         "Elysian Storm Troopers",
-        "Elysian Flakk Team",
+        "Armoured Sentinel",
         "Drop Sentinel",
         "Support Sentinel",
         "Sentinel",
         "Tauros",
         "Tauros Venator",
-        "Heavy Mortar",
+        "Sky Talon",
         "Valkyrie",
         "Vendetta",
         "Vulture"
       ],
       "unitRules": [
-      "Grav-Chutes",
-      "Sabotage"
+        "Grav-Chutes"
       ]
     },
     {
@@ -70,18 +69,20 @@
           "units": "One Elysian Supreme Commander with a Commissar, seven Elysian Drop Troops, four Valkyries.",
           "extraUnits": [
             "Drop Sentinels",
-            "Vendettas"
+            "Fire Support",
+            "Infantry Platoon"
           ],
-          "points": 350
+          "points": 375
         },
         {
           "name": "Drop Troop Company",
           "units": "One Elysian Commander with a Commissar, seven Elysian Drop Troops, four Valkyries.",
           "extraUnits": [
             "Drop Sentinels",
-            "Vendettas"
+            "Fire Support",
+            "Infantry Platoon"
           ],
-          "points": 300
+          "points": 325
         }
       ]
     },
@@ -90,55 +91,53 @@
       "description": "Up to two Support Formations for each Core Company.",
       "formations": [
         {
-          "name": "Elysian Commando Company",
-          "units": "One Commissar, six Elysian Storm Troopers, three Valkyries.",
+          "name": "Sentinel Squadron",
+          "units": "Four Sentinels",
           "extraUnits": [
-            "Cyclops Demolition Vehicles"
+            "Replace all Sentinels with Armoured Sentinels: 25 points",
+            "Replace all Sentinels with Support Sentinels: 75 points",
+            "Replace four Sentinels with six Drop Sentinels: 100 points"
           ],
-          "points": 300
+          "points": 100
         },
         {
-          "name": "Tauros Venator Squadron",
-          "units": "Six Tauros Venators",
+          "name": "Sky Talon Squadron",
+          "units": "Four Sky Talons.",
+          "points": 175
+        },
+        {
+          "name": "Storm Trooper Company",
+          "units": "Eight Elysian Storm Troopers, one with a Commissar, and four Valkyries.",
           "extraUnits": [
+            "Replace all Valkyries with Vendettas: 50 points"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Support Platoon",
+          "units": "Four Elysian Support Squads or four Elysian Mortar Squads, and two Valkyries",
+          "extraUnits": [
+            "Replace all Valkyries with Vendettas: 25 points"
           ],
           "points": 200
         },
         {
-          "name": "Tauros Recon Squadron",
-          "units": "Four Tauros",
+          "name": "Tauros Venator Squadron",
+          "units": "Four Tauros Venators",
           "extraUnits": [
+            "Add up to two Tauros Venators: 25 points each"
           ],
           "points": 150
         },
         {
-          "name": "Mortar Battery",
-          "units": "Three Heavy Mortars",
-          "extraUnits": [
-          ],
-          "points": 175
-        },
-        {
-          "name": "Support Sentinels",
-          "units": "Four Support Sentinels",
-          "extraUnits": [
-          ],
-          "points": 175
+          "name": "Tauros Recon Squadron",
+          "units": "Four Tauros",
+          "points": 150
         },
         {
           "name": "Vulture Squadron",
           "units": "Four Vultures",
-          "extraUnits": [
-            "Replace one Vulture with two Vendettas: 25 points"
-          ],
           "points": 300
-        },
-        {
-          "name": "Elysian Flakk Platoon",
-          "units": "Two Elysian Flakk Teams, two Vendettas",
-          "extraUnits": [
-          ],
-          "points": 200
         }
       ]
     },
@@ -174,9 +173,9 @@
         {
           "name": "0–1 Orbital Support",
           "units": "One Lunar Class Cruiser",
-          "points": 125,
+          "points": 150,
           "extraUnits": [
-            "Replace the Lunar Class Cruiser with an Emperor Class Battleship: 50 points"
+            "Replace the Lunar Class Cruiser with an Emperor Class Battleship: 25 points"
           ]
         }
       ]
@@ -188,30 +187,18 @@
     "items": [
       {
         "name": "Drop Sentinels",
-        "options": [
-          {
-            "description": "Replace two Elysian Drop Troops with two Drop Sentinels",
-            "points": "25 points"
-          }
-        ]
+        "description": "Replace two Elysian Drop Troops and one Valkyrie with two Drop Sentinels and one Sky Talon",
+        "points": "25 points"
       },
       {
-        "name": "Vendettas",
-        "options": [
-          {
-            "description": "Add two Vendettas",
-            "points": "75 points"
-          }
-        ]
+        "name": "Fire Support",
+        "description": "Replace two Elysian Drop Troops and one Valkyrie with two Elysian Fire Support Squads and one Vendetta",
+        "points": "50 points"
       },
       {
-        "name": "Cyclops Demolition Vehicles",
-        "options": [
-          {
-            "description": "The formation gains the 'Sabotage' special rule",
-            "points": "50 points"
-          }
-        ]
+        "name": "Infantry Platoon",
+        "description": "Add two Elysian Drop Troops and one Valkyrie",
+        "points": "75 points"
       }
     ]
   }
