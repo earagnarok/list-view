@@ -3621,9 +3621,9 @@
       "modes": [
         {
           "firepower": "2x AP4+",
-          "range": 45,
+          "range": 30,
           "specialRules": [
-            "D"
+            "D", "Ind"
           ]
         }
       ]
@@ -4166,12 +4166,12 @@
       ]
     },
     {
-      "name": "Fenrisian Axe and Blizzard Shield",
+      "name": "Great Wolf Claw",
       "modes": [
         {
           "firepower": "Assault Weapons",
           "specialRules": [
-            "EA(+2)",
+            "EA(+1)",
             "MW"
           ]
         }
@@ -5964,7 +5964,67 @@
         {
           "firepower": "Assault Weapons",
           "specialRules": [
-            "FS"
+            "Lightning Charge"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exodite Hunting Lances",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "Lightning Charge"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wraithbone Lance",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "Lance",
+            "Lightning Charge"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ferocious Bite",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+2)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Claws, Teeth & Tail",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blazing Breath",
+      "modes": [
+        {
+          "firepower": "3BP",
+          "range": 15,
+          "specialRules": [
+            "IC"
           ]
         }
       ]
@@ -6801,6 +6861,25 @@
         {
           "firepower": "AP5+",
           "range": 30,
+          "specialRules": [
+            "S"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ghostwalker Long Rifles",
+      "modes": [
+        {
+          "firepower": "AP5+",
+          "range": 30,
+          "specialRules": [
+            "S"
+          ]
+        },
+        {
+          "join": "and",
+          "firepower": "Small Arms",
           "specialRules": [
             "S"
           ]
@@ -8517,10 +8596,28 @@
       ]
     },
     {
+      "name": "Prism Launcher",
+      "modes": [
+        {
+          "firepower": "MW3+",
+          "range": 60
+        },
+        {
+          "firepower": "2BP",
+          "range": 30,
+          "join": "or",
+          "specialRules": [
+            "MW",
+            "IC"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Prismatic Cannon",
       "modes": [
         {
-          "firepower": "AP5+/AT3+",
+          "firepower": "AP5+/AT4+",
           "range": 30,
           "specialRules": [
             "Lance"
@@ -8788,6 +8885,17 @@
           "firepower": "2x AT3+",
           "range": 45,
           "specialRules": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Knight Close Combat Weapons",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "MW"
           ]
         }
       ]
@@ -11864,6 +11972,15 @@
       ]
     },
     {
+      "name": "Starcannon",
+      "modes": [
+        {
+          "firepower": "AP4+/AT6+",
+          "range": 30
+        }
+      ]
+    },
+    {
       "name": "Twin Starcannon",
       "modes": [
         {
@@ -12043,11 +12160,9 @@
       "name": "Twin Shadow Lance",
       "modes": [
         {
-          "firepower": "AT3+",
+          "firepower": "MW3+",
           "range": 45,
           "specialRules": [
-            "Shield Disruptor",
-            "Lance"
           ]
         }
       ]

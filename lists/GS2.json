@@ -99,7 +99,7 @@
         "name": "Aberrants",
         "type": "INF",
         "speed": 20,
-        "armour": 5,
+        "armour": 4,
         "cc": 4,
         "weapons": [
           "Giant Mauls"
@@ -283,7 +283,7 @@
         "type": "WE",
         "speed": 20,
         "armour": 5,
-        "cc": 5,
+        "cc": 4,
         "ff": 6,
         "weapons": [
           "Excavator Power Arms",
