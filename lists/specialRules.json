@@ -74,7 +74,7 @@
     {
       "title": "Shield Disruptor",
       "description": [
-        "Each point of damage from a hit with Shield Disruptor will knock down two Powerfields, Shadowfields or Void Shields (if only one remains it is knocked down, but the hit does not carry over). In addition, Shield Disruptor hits ignores Deflector Shields and Ion Shields."
+        "Each point of damage from a hit with <i>Shield Disruptor</i> will knock down two <i>Powerfields</i>, <i>Shadowfields</i> or <i>Void Shields</i>. If a unit with only one field remaining is hit the field knocked down, but the hit does not carry over. In addition, <i>Shield Disruptor</i> hits ignores <i>Deflector Shields</i> and <i>Ion Shields</i>."
       ]
     },
     {
@@ -106,19 +106,19 @@
     {
       "title": "Ionic Flare Shield",
       "description": [
-        "Knights with 'Ionic Flare Shield' may also use their Ion Shield against CC attacks."
+        "Knights with <i>Ionic Flare Shield</i> may also use their Ion Shield against CC attacks."
       ]
     },
     {
       "title": "Shield Piercer",
       "description": [
-        "Weapons with the 'Shield Piercer' special rule ignores Deflector Shields, Ion Shields, Powerfields, Shadowfields and Void Shields (Shadowfields still provide cover from shooting)."
+        "Weapons with the <i>Shield Piercer</i> special rule ignores Deflector Shields, Ion Shields, Powerfields, Shadowfields and Void Shields (Shadowfields still provide cover from shooting)."
       ]
     },
     {
       "title": "Psybolts",
       "description": [
-        "Weapons with the 'Psybolts' special rule ignores Powerfields, Shadowfields, Void Shields, Deflector Shields, Ion Shields and Invulnerable Saves (Shadowfields still provide cover from shooting)."
+        "Weapons with the <i>Psybolts</i> special rule ignores Invulnerable Save and Regenerate."
       ]
     },
     {
@@ -265,6 +265,12 @@
       ]
     },
     {
+      "title": "Elysian Transports",
+      "description": [
+        "The Elysians are a highly mobile army. Because of this, the points cost of a formation usually includes enough transport vehicles to transport it and any upgrades that have been taken. Any formation noted as having <i>plus transport</i> must include enough Valkyries or Vendettas to transport the formation. These transport vehicles may not be left behind to e.g. garrison the formation. Determine the number of Valkyries/Vendettas needed after all upgrades have been purchased. The number of vehicles will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses!"
+      ]
+    },
+    {
       "title": "Grey Knights Transports",
       "description": [
         "Grey Knights formations with 'plus transport' may take Grey Knights Rhinos instead of normal Rhinos."
@@ -340,7 +346,7 @@
     {
       "title": "Pack Mentality",
       "description": [
-        "Space Wolves Packs counts as having one character with the <i>Inspiring</i> special rule when they initiate an assault where they have another formation with the <i>Pack Mentality</i> special rule in support."
+        "Space Wolves Packs counts as having one character with the <i>Inspiring</i> special rule when they initiate an assault where they have another formation with the <i>Pack Mentality</i> special rule in support, or when they perform a combined assault where more than one formation in the assault has <i>Pack Mentality</i>. You will never receive more than plus one <i>Inspiring</i> from <i>Pack Mentality</i>, even if you do both a combined assault and have formations in support, or if you have multiple formations in support."
       ]
     },
     {
@@ -428,11 +434,17 @@
       ]
     },
     {
-      "title": "Great Drake",
+      "title": "Eternal Drake",
       "description": [
-        "The Great Drake must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Great Drake within 15cm of a Worldsinger unit.",
-        "The Great Drake counts as its own formation and may only enter play in this manner.",
-        "While on the table, the Great Drake may only contest objectives. Remove the Great Drake in the End Phase of the turn it arrived, before rallying formations or counting objectives. Once removed it may not return."
+        "The Eternal Drake must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Eternal Drake within 15cm of a Worldsinger unit.",
+        "The Eternal Drake counts as its own formation and may only enter play in this manner.",
+        "While on the table, the Eternal Drake may only contest objectives. Remove the Eternal Drake in the End Phase of the turn it arrived, before rallying formations or counting objectives. Once removed it may not return."
+      ]
+    },
+    {
+      "title": "Innate Mobility",
+      "description": [
+        "Exodite mounted INF not take dangerous or difficult terrain tests, unless caused by fortified positions such as Minefields, Razor Wire, and special terrain features."
       ]
     },
     {
@@ -454,7 +466,7 @@
     {
       "title": "Avatar (Saim-Hann)",
       "description": [
-        "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Mounted Farseer unit.",
+        "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Farseer or Mounted Farseer unit.",
         "The Avatar counts as its own formation and may only enter play in this manner.",
         "While on the table, the Avatar may only contest objectives. Remove the Avatar in the End Phase of that turn, before rallying formations or counting objectives. Once removed it may not return."
       ]
@@ -508,7 +520,7 @@
     {
       "title": "May not Garrison (Saim-Hann)",
       "description": [
-        "Only Saim-Hann Hornets are allowed to garrison objectives in the Epic tournament game scenario."
+        "Only War Walkers and Saim-Hann Hornets are allowed to garrison objectives in the Epic tournament game scenario."
       ]
     },
     {
@@ -582,7 +594,7 @@
     {
       "title": "Holofields (x)",
       "description": [
-        "Holofields provide a saving throw to the value of 'x'. This save may always be taken even against weapons with the Macro Weapon or Titan Killer abilities.",
+        "Holofields provide a saving throw to the value of <i>x</i>. This save may always be taken even against weapons with the Macro Weapon or Titan Killer abilities.",
         "If a unit has Reinforced Armour it may use its re-roll unless hit by a Lance, Macro Weapon or Titan Killer attack but the re-roll uses the units armour value. Hits saved by the Holofield do not generate Blast Markers, even if they have the Disrupt ability.",
         "Against Titan Killer attacks that cause extra damage make one Holofield save roll, if this is successful the unit takes no damage, if the roll fails it suffers all the damage.",
         "Holofield saves can be reduced by modifiers such as the -1 to saves from a cross fire and weapons with the Sniper ability. If a unit with Holofield also has a save from being in Cover, it must choose which save to use."
@@ -597,7 +609,7 @@
     {
       "title": "Independent Twins",
       "description": [
-        "Allows a formation of Revenant Titans to operate as two independent War Engines for all purposes, including for determining the army BTS. If one of the pair is destroyed, the surviving Revenant Twin receives a Blast Marker.",
+        "The Independent Twins special rule allows a War Engine formation to operate as two independent War Engines for all purposes, including for determining the army BTS (each unit counts as its own formation worth half of the points value of the original formation, including upgrades). If one of the two War Engines are destroyed, the surviving one immediately recieves a Blast Marker.",
         "In addition, Independent Twins may use the Commander ability with its Twin. In this case, the Commander ability counts as having an unlimited range instead of the normal 5cm."
       ]
     },
@@ -810,7 +822,13 @@
     {
       "title": "Word Bearers Characters",
       "description": [
-        "Word Bearers characters may only be added to units of Chaos Space Marines, Havocs, Chaos Assault Bikes, Chaos Terminators, Aspiring Champions, Word Bearers Possessed, or Word Bearers Iconoclasts."
+        "Word Bearers characters may only be added to units of Chaos Space Marines, Havocs, Chaos Terminators, Cultists, or Word Bearers Iconoclasts."
+      ]
+    },
+        {
+      "title": "Heralds of Truth",
+      "description": [
+        "Any formation that contains at least one unit with the 'Heralds of Truth' special rule ignores the -1 modifier for enemy formations within 30cm when rallying."
       ]
     },
     {
@@ -1220,8 +1238,8 @@
     {
       "title": "Synapse",
       "description": [
-        "The following rules applies to Primary and Secondary Synapse Swarm formations only. Synapse creatures are any unit with the 'Synapse' special rule. A Synapse Swarm with no remaining Synapse creatures has an Initiative Rating of 3+ and may neither capture nor contest objectives, including They Shall Not Pass.",
-        "A Synapse Swarm with remaining Synapse creatures can absorb other Synapse Swarm formations with no remaining Synapse creatures at the end of its action. The formation must have one unit within 5cm of a unit from the formation(s) being absorbed. The units and Blast Markers of an absorbed formation become part of the formation (broken formations are considered to have an equal number of Blast Markers as the number of remaining units/starting DC). An absorbed formation is considered completely destroyed for the purposes of tie-break and the Break Their Spirit objective."
+        "The following rules applies to Primary and Secondary Synapse Swarm formations only. Synapse creatures are any unit with the <i>Synapse</i> special rule. A Synapse Swarm with no remaining Synapse creatures has an Initiative Rating of 3+ and may neither capture nor contest objectives, including They Shall Not Pass.",
+        "A Synapse Swarm with remaining Synapse creatures can absorb other Synapse Swarm formations with no remaining Synapse creatures at the end of its action. The formation must have one unit within 5cm of a unit from the formation(s) being absorbed. The units and Blast Markers of an absorbed formation become part of the formation (broken formations are considered to have an equal number of Blast Markers as the number of remaining units/starting DC). An absorbed formation is considered completely destroyed for the purposes of the Break Their Spirit objective."
       ]
     },
     {
@@ -1269,7 +1287,7 @@
     {
       "title": "Gaunts",
       "description": [
-        "Half (rounding up) of Termagants, Hormagaunts, Gargoyles, and Raveners that are killed in an assault do not count for combat resolution and are Expendable as long as there is at least one model with Synapse still present in the formation."
+        "Half (rounding up) of all units with the <i>Gaunts</i> special rule that are killed in an assault do not count for combat resolution. <i>Gaunts</i> are also <i>Expendable</i> as long as there is at least one unit with <i>Synapse</i> still present in the formation."
       ]
     },
     {
@@ -1281,15 +1299,29 @@
     {
       "title": "Hydra Vanguard Organisms",
       "description": [
-        "Only Genestealers, Lictors, and Dimachaeron may deploy as garrisons."
+        "Only Spawn Nests, Genestealer Swarms and Infiltrator Swarms may be deployed as garrisons."
       ]
     },
     {
-      "title": "Swarm (x)",
+      "title": "Swarming",
       "description": [
-        "In the End Phase, before formations have rallied, all unbroken Tyranid formations with both Swarm (x) and Synapse creatures may 'Swarm'.",
-        "For each Swarm point, one unit with the 'Gaunts' rule that has been lost during the battle may be added to the formation, but each unit with 'Swarm (x)' may only bring back the types of units that are within brackets next to its 'Gaunt Pouch'.",
-        "All units returned to play in this manner must be placed within 5cm of a unit from the formation that was there prior to Swarming, and may not be placed in enemy zones of control or impassable terrain. Not all generated Swarm points need to be used, but may not be saved for future turns."
+        "The Hive Fleet Hydra army may spawn Gaunts during battle to strengthen their ranks. The army starts the game with an off-board swarm pool. Swarm pool points are bought during army creation and allows you to add units with the <i>Gaunts</i> special rule to spawning formations. The size of the swarm pool must be visible to all players at all times and it is suggested that either tokens or dice are used to indicate the size of the pool. As Gaunts are spawned the pool size must be changed to reflect its current size. You can spawn any type of unit with the <i>Gaunts</i> special rule available in the army regardless the original unit composition of the spawning formation.",
+
+        "In the End Phase, before formations have rallied, all Tyranid formations with at least one unit with <i>Synapse</i> may swarm. Roll 1D3 to generate the number of spawning points available to the formation (modified by the <i>Augmented Swarming(+x)</i> and <i>Assisted Swarming</i> special rules). The formation may then spawn Gaunts up to the number of spawning points generated. All units added in this manner must be placed within 5cm of units already present on the battlefield before Swarming, and may not be placed in enemy zones of control or impassable terrain. Formations that are broken may also swarm but must spend two spawn points for each unit added to the formation.",
+
+        "In addition, a formation that regroups can use the dice roll to either spawn units from the swarm pool or remove blast markers. E.g. a formation rolling a 3 when regrouping can remove three blastmarkers, spawn three Gaunts, remove one blastmarker and spawn two Gaunts, etc."
+      ]
+    },
+    {
+      "title": "Augmented Swarming(+x)",
+      "description": [
+        "Units with <i>Augment Swarming(+x)</i> adds a number of spawning points equal to <i>x</i> when the formation they are in is swarming (see <i>Swarming</i> army rule)."
+      ]
+    },
+    {
+      "title": "Assisted Swarming",
+      "description": [
+        "Units with <i>Assisted Swarming</i> adds one spawning point to friendly formations withing 15cm of the unit (including the formation it is part of) during swarming (see <i>Swarming</i> army rule). Multiple units with <i>Assisted Swarming</i> adds one point each."
       ]
     },
     {

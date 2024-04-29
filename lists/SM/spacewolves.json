@@ -1,11 +1,12 @@
 {
   "fraction": "Space Marines",
   "army": "Space Wolves",
-  "version": "0.6.0",
-  "release": "2022-04-01",
+  "version": "1.0.beta",
+  "release": "2024-01-10",
+  "armyforge": "EAR_AdeptusAstartes_SpaceWolves",
   "strategy": "Space Marine armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
-  "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Space Wolves detachments and Aircraft formations. <i>Pack Mentality</i> applies to all Core and Elite Packs.",
+  "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Space Wolves Packs and Aircraft formations. <i>Pack Mentality</i> applies to all Core and Elite Packs.",
   "specialRules": [
     "Pack Mentality",
     "Space Marine Transports",
@@ -20,6 +21,7 @@
       "units": [
         "Great Wolf Supreme Commander",
         "Wolf Lord Captain",
+        "Wolf Standard Bearer",
         "Blood Claw Assaults",
         "Sky Claw Assaults",
         "Grey Hunter Tacticals",
@@ -36,8 +38,10 @@
         "Dreadnought, Wulfen",
         "Hunter",
         "Land Raider",
+        "Leman Russ Exterminator",
         "Predator Annihilator",
         "Predator Destructor",
+        "Razorback",
         "Rhino",
         "Stalker",
         "Whirlwind",
@@ -69,11 +73,11 @@
       "formations": [
         {
           "name": "Hunting Pack",
-          "units": "One Wolf Lord Captain, six Grey Hunter Tacticals plus transport",
+          "units": "One Wolf Lord Captain, one Wolf Standard Bearer and six Grey Hunter Tacticals plus transport",
           "extraUnits": [
-            "Replace two Grey Hunter Tacticals with Long Fang Devastators: 50 points",
             "Anti-Air",
             "Dreadnoughts",
+            "Exterminators",
             "Fenrisian Wolves",
             "Heavy Transports",
             "Supreme Commander"
@@ -89,7 +93,7 @@
             "Fenrisian Wolves",
             "Wolf Lord Captain"
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Sky Claw Assault Pack",
@@ -98,7 +102,7 @@
             "Fenrisian Wolves",
             "Wolf Lord Captain"
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Swift Claw Bikes Pack",
@@ -113,18 +117,20 @@
     },
     {
       "name": "Space Wolf Elite Packs",
-      "description": "One Elite Pack may be taken per Hunting Pack (note: not one per Core Pack)",
+      "description": "You may not have more Elite Packs of any one type than you have Hunting Packs",
       "formations": [
         {
           "name": "Long Fang Pack",
           "units": "One Wolf Lord Captain, four Long Fang Devastators",
           "extraUnits": [
+            "Anti-Air",
             "Dreadnoughts",
+            "Exterminators",
             "Fenrisian Wolves",
             "Heavy Transports",
             "Supreme Commander"
           ],
-          "points": 300
+          "points": 275
         },
         {
           "name": "Thunderwolf Cavalry",
@@ -133,7 +139,7 @@
             "Fenrisian Wolves",
             "Supreme Commander"
           ],
-          "points": 300
+          "points": 275
         },
         {
           "name": "Wolf Guard Terminator Pack",
@@ -146,17 +152,18 @@
         },
         {
           "name": "Wolf Scout Pack",
-          "units": "One Wolf Lord Captain, four Wolf Scouts plus transport",
+          "units": "Four Wolf Scouts plus transport",
           "extraUnits": [
-            "Fenrisian Wolves"
+            "Fenrisian Wolves",
+            "Wolf Lord Captain"
           ],
-          "points": 200
+          "points": 175
         }
       ]
     },
     {
       "name": "Space Wolf Support Packs",
-      "description": "Two Support Packs may be taken per Hunting Pack (note: not one per Core Pack)",
+      "description": "One Support Pack may be taken per Core Pack",
       "formations": [
         {
           "name": "Land Raiders",
@@ -223,7 +230,7 @@
           "units": "One Stormwolf Assault Boat",
           "extraUnits": [
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "Stormfang Gunship",
@@ -266,17 +273,22 @@
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add up to two Dreadnoughts or one Wulfen Dreadnought to the formation",
+        "description": "Add up to two of the following units to the formation",
         "options": [
           {
-            "description": "Dreadnoughts",
+            "description": "Dreadnought",
             "points": "50 points each"
           },
           {
             "description": "Wulfen Dreadnought",
-            "points": "75 points"
+            "points": "75 points each"
           }
         ]
+      },
+      {
+        "name": "Exterminators",
+        "description": "Add up to two Leman Russ Exterminators",
+        "points": "50 points each"
       },
       {
         "name": "Fenrisian Wolves",
@@ -296,6 +308,16 @@
             "points": "50 points each"
           }
         ]
+      },
+      {
+        "name": "Typhoons",
+        "description": "Replace up to five Land Speeders with an equal number of Land Speeder Typhoons",
+        "points": "10 points each"
+      },
+      {
+        "name": "Wolf Lord Captain",
+        "description": "Add one Wolf Lord Captain to the formation",
+        "points": "25 points"
       },
       {
         "name": "0-1 Supreme Commander",

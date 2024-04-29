@@ -67,6 +67,7 @@
           "Large Claws"
         ],
         "specialRules": [
+          "Assisted Swarming",
           "Hive Mind Locus",
           "Inspiring",
           "Synapse",
@@ -88,6 +89,7 @@
           "Large Claws"
         ],
         "specialRules": [
+          "Assisted Swarming",
           "Hive Mind Locus",
           "Inspiring",
           "Synapse",
@@ -227,6 +229,19 @@
         ]
       },
       {
+        "name": "Barbgaunts",
+        "type": "INF",
+        "speed": 15,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Gaunt Bio-Cannon"
+        ],
+        "specialRules": [
+          "Gaunts"
+        ]
+      },
+      {
         "name": "Hormagaunts",
         "type": "INF",
         "speed": 20,
@@ -281,6 +296,19 @@
         ]
       },
       {
+        "name": "Pyrovore",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Flamespurt"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
         "name": "Lictor",
         "type": "LV",
         "speed": 15,
@@ -294,23 +322,23 @@
         "specialRules": [
           "First Strike",
           "Infiltrators",
-          "Scout",
           "Invulnerable Save",
+          "Scout",
           "Teleport"
         ]
       },
       {
         "name": "Dimachaeron",
         "type": "LV",
-        "speed": 15,
-        "armour": 3,
-        "cc": 3,
+        "speed": 30,
+        "armour": 4,
+        "cc": 2,
+        "ff": 6,
         "weapons": [
-          "Spine-Ringed Maw",
           "Large Claws"
         ],
         "specialRules": [
-          "Infiltrators",
+          "Regeneration",
           "Scout"
         ]
       },
@@ -357,6 +385,7 @@
           "Bio-Acid-Venom Pods"
         ],
         "specialRules": [
+          "Reinforced Armour"
         ]
       },
       {
@@ -365,7 +394,7 @@
         "speed": 25,
         "armour": 5,
         "cc": 5,
-        "ff": 5,
+        "ff": 4,
         "weapons": [
           "Bio-Plasmic Cannon"
         ],
@@ -403,27 +432,28 @@
           "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May transport up to four units of Termagants, Hormagaunts, Gargoyles and Raveners. Biovores, Tyranid Warriors and Zoanthropes counts as one and a half units each, rounded up."
+        "notes": "May transport up to four units of Barbgaunts, Termagants, Hormagaunts, Gargoyles and Raveners. Biovores, Pyrovores, Tyranid Warriors and Zoanthropes counts as one and a half units each, rounded up."
       },
       {
         "name": "Barbed Carnifex",
         "type": "AV",
-        "speed": 20,
+        "speed": 15,
         "armour": 4,
-        "cc": 3,
+        "cc": 4,
         "ff": 5,
         "weapons": [
           "Venom Cannon",
-          "Claws"
+          "Ripping Claws"
         ],
         "specialRules": [
+          "Infiltrators",
           "Reinforced Armour"
         ]
       },
       {
         "name": "Screamer-Killer Carnifex",
         "type": "AV",
-        "speed": 20,
+        "speed": 15,
         "armour": 4,
         "cc": 3,
         "ff": 5,
@@ -432,34 +462,28 @@
           "Large Claws"
         ],
         "specialRules": [
+           "Infiltrators",
           "Reinforced Armour"
         ]
       },
       {
-        "name": "Tervigon Prime",
-        "type": "H-AV",
-        "speed": 25,
+        "name": "Hive Guard",
+        "type": "INF",
+        "speed": 10,
         "armour": 5,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Frag Spines",
-          "Large Claws",
-          "Gaunt Pouch"
+          "Impaler Cannon"
         ],
         "specialRules": [
-          "Synapse",
-          "Fearless",
-          "Reinforced Armour",
-          "Transport",
-          "Swarm (2)"
-        ],
-        "notes": "May transport two units of Termagants and Hormagaunts. May bring back two units of Termagants and/or Hormagaunts when Swarming."
+          "Reinforced Armour"
+        ]
       },
       {
         "name": "Tervigon",
         "type": "H-AV",
-        "speed": 25,
+        "speed": 20,
         "armour": 5,
         "cc": 5,
         "ff": 5,
@@ -471,9 +495,25 @@
         "specialRules": [
           "Reinforced Armour",
           "Transport",
-          "Swarm (1)"
+          "Augmented Swarming(+1)",
+          "Synapse",
+          "Fearless"
         ],
-        "notes": "May transport two units of Termagants and Hormagaunts. May bring back one unit of Termagants and/or Hormagaunts when Swarming."
+        "notes": "May transport two units with the 'Gaunts' special rule."
+      },
+      {
+        "name": "Tyrannofex",
+        "type": "H-AV",
+        "speed": 20,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Rupture Cannon"
+        ],
+        "specialRules": [
+          "Reinforced Armour"
+        ]
       },
       {
         "name": "Viragon",
@@ -501,7 +541,7 @@
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
-        "cc": 4,
+        "cc": 3,
         "ff": 6,
         "weapons": [
           "Bio-Electric Field",
@@ -519,7 +559,7 @@
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
-        "cc": 4,
+        "cc": 3,
         "ff": 6,
         "weapons": [
           "Bio-Electric Field",
@@ -562,8 +602,7 @@
         "weapons": [
           "Drool Cannon|2|",
           "Tentaclids",
-          "Large Claws",
-          "Gaunt Pouch"
+          "Large Claws"
         ],
         "specialRules": [
           "Damage Capacity: 3",
@@ -571,10 +610,9 @@
           "Fearless",
           "Skimmer",
           "Reinforced Armour",
-          "Transport",
-          "Swarm (1)"
+          "Transport"
         ],
-        "notes": "May transport up to four units of Gargoyles. May bring back one unit of Gargoyles when Swarming.",
+        "notes": "May transport up to four units of Gargoyles.",
         "crit": "The Harridan is killed."
       },
       {
@@ -668,6 +706,24 @@
         "crit": "The Hive Nest is destroyed."
       },
       {
+        "name": "Spawn Nest",
+        "type": "WE",
+        "speed": "Immobile",
+        "armour": 5,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+        ],
+        "specialRules": [
+          "Damage Capacity: 3",
+          "Synapse",
+          "Assisted Swarming",
+          "Fearless",
+          "Regeneration"
+        ],
+        "crit": "The Spawn Nest is destroyed."
+      },
+      {
         "name": "Dagon Dominatrix",
         "type": "WE",
         "speed": 25,
@@ -717,9 +773,10 @@
           "Reinforced Armour",
           "Regeneration",
           "Transport",
-          "Swarm (3)"
+          "Augmented Swarming(+1)",
+          "Assisted Swarming"
         ],
-        "notes": "May transport five units of Termagants, Hormagaunts and Gargoyles. May bring back three units of Termagants, Hormagaunts and/or Gargoyles when Swarming. May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
+        "notes": "May transport five units with the 'Gaunts' special rule. May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
         "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: Suffers 1 additional damage. 6: Suffers D3 additional damage."
       },
       {
@@ -735,7 +792,7 @@
           "Massive Scything Talons"
         ],
         "specialRules": [
-          "Damage Capacity: 5",
+          "Damage Capacity: 4",
           "Fearless",
           "Reinforced Armour",
           "Regeneration"
@@ -758,7 +815,7 @@
           "Monstrous Claws"
         ],
         "specialRules": [
-          "Damage Capacity: 7",
+          "Damage Capacity: 6",
           "Fearless",
           "Reinforced Armour",
           "Regeneration"

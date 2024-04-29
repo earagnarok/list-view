@@ -1,8 +1,8 @@
 {
   "fraction": "Eldar",
   "army": "Craftworld Ulthwé",
-  "version": "1.0.Beta",
-  "release": "2022-04-01",
+  "version": "1.0.Beta-2",
+  "release": "2023-07-20",
   "armyforge": "EAR_Eldar_Ulthwe",
   "intro": "The following army list allows you to field an Eldar army from the Ulthwé Craftworld.",
   "strategy": "Craftworld Eldar armies have a Strategy Rating of 4. Craftworld Ulthwé are also subject to the 'Seers of Ulthwé' special rule.",
@@ -111,8 +111,7 @@
           "extraUnits": [
             "Seer Council",
             "Replace up to three Eldar Guardians with an equal number of Eldar Heavy Weapon Platform units: Free",
-            "Replace any number of Wave Serpents with two Falcons each: 50 points each",
-            "Replace one Wave Serpent with two Firestorms: 75 points"
+            "Replace any number of Wave Serpents with two Falcons each: 50 points each"
           ],
           "points": 325
         }

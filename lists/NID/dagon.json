@@ -1,8 +1,8 @@
 {
   "fraction": "Tyranid",
   "army": "Hive Fleet Dagon",
-  "version": "Beta 1.0.Beta",
-  "release": "2022-04-01",
+  "version": "1.0.beta-3",
+  "release": "2024-01-18",
   "armyforge": "EAR_Tyranid_HiveFleetDagon",
   "strategy": "Tyranid armies have a Strategy Rating of 1.",
   "Initiative": "The Nexus Swarm has an Initiative Rating of 1+. All other Tyranid formations have an Initiative Rating of 2+. In addition, all formations are subject to the 'Hive Mind' special rule.",
@@ -12,8 +12,7 @@
     "Hive Mind",
     "Shoot the Big Ones!",
     "Extreme Mobility",
-    "Tunnelers",
-    "Dagon Vanguard Organisms"
+    "Tunnelers"
   ],
   "units": [
     {
@@ -22,6 +21,7 @@
         "Brood Lord",
         "Termagants",
         "Hormagaunts",
+        "Barbgaunts",
         "Gargoyles",
         "Raveners",
         "Genestealers",
@@ -82,7 +82,7 @@
           "extraUnits": [
             "One to four Instinctive Swarms (except Mycetic Spore)"
           ],
-          "points": 425
+          "points": 400
         },
         {
           "name": "Tyrant Swarm",
@@ -93,15 +93,16 @@
             "0-1 Hive Tyrant in the army may be replaced with the Dagon Overlord: 75 points",
             "Replace the Dagon Overlord with a Dagon Overlord Shrike: Free"
           ],
-          "points": 150
+          "points": 125
         },
         {
           "name": "Assault Swarm",
-          "units": "Two Tyranid Warriors and/or Zoanthropes",
+          "units": "Two Tyranid Warriors",
           "extraUnits": [
-            "Two to four Instinctive Swarms",
-            "1+ Gaunts, Gargoyles or Biovores must be chosen",
-            "Replace up to two Tyranid Warriors with Tyranid Warrior Shrikes: Free"
+            "One to two Instinctive Swarms",
+            "1+ Gaunts, Gargoyles, or Bio-Support must be chosen",
+            "Replace two Tyranid Warriors with Tyranid Warrior Shrikes: Free",
+            "Replace two Tyranid Warriors with Zoanthropes: 25pts"
           ],
           "points": 100
         }
@@ -115,8 +116,7 @@
           "name": "Nest Swarm",
           "units": "One Hive Nest",
           "extraUnits": [
-            "One to two Instinctive Swarms chosen from Gaunts, Gargoyles, Biovores or Bio-Support",
-            "1+ Gaunts, Gargoyles or Biovores must be chosen"
+            "One to two Instinctive Swarms chosen from Gaunts, Gargoyles, Bio-Support, or Bio-Artillery"
           ],
           "points": 150
         },
@@ -141,7 +141,7 @@
           "units": "One Harridan",
           "extraUnits": [
             "One to two Instinctive Swarms chosen from Gargoyles or Bio-Flyers",
-            "Add one Harridan: 150 points"
+            "Add one Harridan: 100 points"
           ],
           "points": 175
         }
@@ -178,7 +178,7 @@
           "extraUnits": [
             "Replace the Hierophant with a Hydraphant Bio-Titan: 100 points"
           ],
-          "points": 375
+          "points": 325
         },
         {
           "name": "Bio-Vessel",
@@ -197,11 +197,11 @@
     "items": [
       {
         "name": "Gaunts",
-        "description": "Five Termagants and/or Hormagaunts",
+        "description": "Five Termagants, five Barbgaunts, or five Hormagaunts",
         "points": "75 points"
       },
       {
-        "name": "Biovores",
+        "name": "Bio-Support",
         "description": "Four Biovores",
         "points": "75 points"
       },
@@ -217,13 +217,13 @@
       },
       {
         "name": "Carnifex",
-        "description": "Three Barbed Carnifex or three Screamer-Killer Carnifex",
-        "points": "125 points"
+        "description": "two Barbed Carnifex or two Screamer-Killer Carnifex",
+        "points": "75 points"
       },
       {
-        "name": "Bio-Support",
+        "name": "Bio-Artillery",
         "description": "Three Dactylis",
-        "points": "150 points"
+        "points": "125 points"
       },
       {
         "name": "Bio-Attack",
@@ -248,6 +248,6 @@
     ]
   },
   "about": [
-    "The EA-R Hive Fleet Dagon list is essentially the same as the NetEA variant, but has some significant differences..."
+    ""
   ]
 }

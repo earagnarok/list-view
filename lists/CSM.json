@@ -97,8 +97,9 @@
         ],
         "specialRules": [
           "Inspiring",
-          "Leader",
-          "Augment Summoning (+2D3)",
+          "Supreme Commander",
+          "Heralds of Truth",
+          "Augment Summoning (+D3)",
           "Invulnerable Save"
         ]
       },
@@ -200,13 +201,14 @@
           "Invulnerable Save"
         ]
       },
-      {
-        "name": "Diabolist",
+            {
+        "name": "Word Bearers Coryphaus",
         "type": "CH",
         "weapons": [
-          "Daemonic Bolt"
+            "n/a"
         ],
         "specialRules": [
+          "Heralds of Truth",
           "Augment Summoning (+D3)",
           "Leader",
           "Invulnerable Save"
@@ -260,6 +262,18 @@
           "Leader"
         ]
       },
+            {
+        "name": "Word Bearers Acolyte",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Augment Summoning (+D3)",
+          "Daemonic Focus",
+          "Invulnerable Save"
+        ]
+      },
       {
         "name": "Daemon Prince",
         "type": "INF",
@@ -300,6 +314,28 @@
           "Fearless",
           "Daemonic Focus",
           "Daemonic Pact",
+          "Invulnerable Save"
+        ]
+      },
+            {
+        "name": "Word Bearers Daemon Prince",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Warp Bolt",
+          "Æther Blade"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Heralds of Truth",
+          "Reinforced Armour",
+          "Jump Pack",
+          "Fearless",
+          "Daemonic Focus",
+          "Augment Summoning (+D3)",
           "Invulnerable Save"
         ]
       },
@@ -731,16 +767,18 @@
         "notes": "Must start the game in the reserves, and may only enter the battlefield by Teleportation. May not be transported."
       },
       {
-        "name": "Word Bearers Possessed",
+        "name": "Daemonkin",
         "type": "INF",
         "speed": 15,
-        "armour": 4,
-        "cc": 4,
-        "ff": 4,
+        "armour": 3,
+        "cc": 2,
+        "ff": 5,
         "weapons": [
-          "Daemonic Possession"
+          "Daemonic Claws"
         ],
         "specialRules": [
+          "Fearless",
+          "Infiltrators",
           "Invulnerable Save"
         ]
       },
