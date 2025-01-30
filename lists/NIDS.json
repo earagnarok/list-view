@@ -22,6 +22,7 @@
         "speed": "20cm",
         "armour": "4",
         "cc": 2,
+        "ff": 5,
         "weapons": [
           "Boneswords"
         ],
@@ -41,6 +42,7 @@
         "speed": "30cm",
         "armour": "5",
         "cc": 2,
+        "ff": 5,
         "weapons": [
           "Boneswords"
         ],
@@ -579,6 +581,7 @@
         "ff": 5,
         "weapons": [
           "Bio-Cannon",
+          "Tentaclids",
           "Large Claws"
         ],
         "specialRules": [
@@ -590,7 +593,7 @@
           "Transport"
         ],
         "notes": "May transport up to four units of Gargoyles.",
-        "crit": "The Harridan and any Gargoyles transported are killed."
+        "crit": "The Harridan is killed."
       },
       {
         "name": "Hive Harridan",
